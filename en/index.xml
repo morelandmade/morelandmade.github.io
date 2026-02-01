@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The title in the main hugo.yaml overrides this. on MM</title>
-    <link>https://example.docsy.dev/en/</link>
+    <link>https://morelandmade.github.io/en/</link>
     <description>Recent content in The title in the main hugo.yaml overrides this. on MM</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://example.docsy.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://morelandmade.github.io/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
