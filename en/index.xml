@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The title in the main hugo.yaml overrides this. on MM</title>
+    <title>Moreland Made Home on MM</title>
     <link>https://morelandmade.github.io/en/</link>
-    <description>Recent content in The title in the main hugo.yaml overrides this. on MM</description>
+    <description>Recent content in Moreland Made Home on MM</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://morelandmade.github.io/en/index.xml" rel="self" type="application/rss+xml" />
