@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>404 - Page Not Found | Moreland Made</title><script type="module" src="/_astro/Layout.astro_astro_type_script_index_0_lang.QLau1tjm.js"></script><script>
+      const getStoredTheme = () => localStorage.getItem("theme");
+      const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
+
+      const getPreferredTheme = () => {
+        const storedTheme = getStoredTheme();
+        if (storedTheme) return storedTheme;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+      };
+
+      const setTheme = (theme) => {
+        document.documentElement.setAttribute("data-bs-theme", theme);
+      };
+
+      setTheme(getPreferredTheme());
+    </script><link rel="stylesheet" href="/_astro/contact.CJ2fjhDh.css">
+<style>.fw-black[data-astro-cid-zetdm5md]{font-weight:900}.tracking-widest[data-astro-cid-zetdm5md]{letter-spacing:.2em}
+</style></head> <body> <nav class="navbar navbar-expand-lg bg-body sticky-top"> <div class="container"> <a class="navbar-brand fw-bold tracking-tight" href="/">
+MORELAND <span class="text-success-subtle">MADE</span> </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarNav"> <ul class="navbar-nav ms-auto"> <li class="nav-item"><a class="nav-link" href="/"><span class="bi bi-house-door-fill px-2"></span>Home</a></li> <li class="nav-item"> <a class="nav-link" href="/services"><span class="bi bi-ui-checks px-2"></span>Services</a> </li> <li class="nav-item"> <a class="nav-link" href="/solutions"><span class="bi bi-check-circle-fill px-2"></span>Solutions</a> </li> <li class="nav-item"> <a class="nav-link" href="/contact"><span class="bi bi-envelope-at-fill px-2"></span>Contact</a> </li> <li class="nav-item"> <button class="btn btn-link nav-link py-2 px-0 px-lg-2 border-0" id="theme-toggle" aria-label="Toggle theme (light/dark)"> <span class="bi bi-sun-fill theme-icon-active" id="theme-icon"> Theme</span> </button> </li> </ul> </div> </div> </nav>  <section class="vh-100 d-flex align-items-center bg-body" data-astro-cid-zetdm5md> <div class="container" data-astro-cid-zetdm5md> <div class="row justify-content-center" data-astro-cid-zetdm5md> <div class="col-lg-6 text-center" data-astro-cid-zetdm5md> <h1 class="display-1 fw-black text-primary-emphasis opacity-50 mb-0" style="font-size: 8rem;" data-astro-cid-zetdm5md>
+4<i class="bi bi-exclamation-circle" style="font-size: 7rem" data-astro-cid-zetdm5md></i>4
+</h1> <div class="position-relative" data-astro-cid-zetdm5md> <h2 class="fw-bold h1 mb-3" data-astro-cid-zetdm5md>Content not found.</h2> <p class="text-body-secondary lead mb-5 py-5" data-astro-cid-zetdm5md>
+The page you are looking for has been moved, renamed, or is currently undergoing maintenance. 
+              Let’s get your project back on track.
+</p> <div class="d-flex flex-column flex-sm-row justify-content-center gap-3" data-astro-cid-zetdm5md> <a href="/" class="btn btn-primary btn-lg px-4 fw-semibold" data-astro-cid-zetdm5md>
+Back to Home
+</a> <a href="/solutions" class="btn btn-outline-secondary btn-lg px-4" data-astro-cid-zetdm5md>
+Explore Solutions
+</a> </div> </div> <div class="mt-5 pt-5 border-top opacity-50" data-astro-cid-zetdm5md> <p class="small text-uppercase tracking-widest text-muted" data-astro-cid-zetdm5md>Moreland Made IT Implementation</p> </div> </div> </div> </div> </section>  <script type="module">const m=document.getElementById("theme-toggle"),t=document.getElementById("theme-icon"),n=e=>{e==="dark"?(t.classList.remove("bi-sun-fill"),t.classList.add("bi-moon-stars-fill")):(t.classList.remove("bi-moon-stars-fill"),t.classList.add("bi-sun-fill"))},o=document.documentElement.getAttribute("data-bs-theme");n(o);m?.addEventListener("click",()=>{const e=document.documentElement,s=e.getAttribute("data-bs-theme")==="dark"?"light":"dark";e.setAttribute("data-bs-theme",s),localStorage.setItem("theme",s),n(s)});</script> </body> </html> 
