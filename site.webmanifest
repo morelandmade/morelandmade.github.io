@@ -1,0 +1,16 @@
+{
+  "name": "Moreland Made",
+  "short_name": "Moreland Made",
+  "description": "IT consulting and implementation — cloud migrations, modern websites, and IT strategy.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#2db88a",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}
